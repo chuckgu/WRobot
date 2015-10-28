@@ -12,19 +12,9 @@ def get_decision(data,definition):
     subj=definition['subj'][0]
     mode=definition['mode'][0]
     
-    if mode==1:#그룹 및 지수
+    if mode==1:#value
         if subj==1: ##한종목 
-            base_data=pd.DataFrame()
-            base_data['index']=definition['index']
-            base_data['value']=definition['dir'] 
-            delta=float(data['drate'])*3
-            index=get_index(base_data,delta)
-            
-            fact_data=pd.Series()
-            fact_data['subj']=data['subj']
-            fact_data['delta']=abs(data['delta'])
-            fact_data['drate']=data['drate']
-            fact_data['finalvalue']=abs(data['finalvalue'])
+            return
         elif subj>1: ##여러종목
             up=1
             down=1
@@ -32,12 +22,12 @@ def get_decision(data,definition):
             fact_data=pd.Series()
             for d in data:
                 if d['value']>=0:
-                    fact_data['u_name'+str(up)]=d['sub']
+                    fact_data['u_name'+str(up)]=d['name']
                     fact_data['u_value'+str(up)]=abs(d['value'])
                     up+=1
                     delta+=5
                 else:
-                    fact_data['d_name'+str(down)]=d['sub']
+                    fact_data['d_name'+str(down)]=d['name']
                     fact_data['d_value'+str(down)]=abs(d['value'])
                     down+=1                    
                     delta-=5
@@ -46,9 +36,19 @@ def get_decision(data,definition):
             base_data['value']=definition['dir']                 
 
             index=get_index(base_data,delta) 
-    elif mode==2: #개별주식들&업종
+    elif mode==2: #ratio 
         if subj==1:
-            return
+            base_data=pd.DataFrame()
+            base_data['index']=definition['index']
+            base_data['value']=definition['dir'] 
+            delta=float(data['drate'])*3
+            index=get_index(base_data,delta)
+            
+            fact_data=pd.Series()
+            fact_data['name']=data['name']
+            fact_data['delta']=abs(data['delta'])
+            fact_data['drate']=data['drate']
+            fact_data['finalvalue']=abs(data['finalvalue'])
         elif subj>1:
             up=1
             down=1

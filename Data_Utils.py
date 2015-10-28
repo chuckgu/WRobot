@@ -24,8 +24,8 @@ def Get_data(start_date,end_date,mode,kind='kospi'):
         
         daily_data=total_data[-1]
         
-        if kind=='kospi':daily_data['subj']='코스피'
-        else:daily_data['subj']='코스닥'
+        if kind=='kospi':daily_data['name']='코스피'
+        else:daily_data['name']='코스닥'
 
         
     elif mode == 'subject': 
@@ -40,7 +40,7 @@ def Get_data(start_date,end_date,mode,kind='kospi'):
         daily_data=[]
         for i in range(3):
             subj_data=pd.Series()      
-            subj_data['sub']=name[i]
+            subj_data['name']=name[i]
             subj_data['value']=value[i]
             daily_data.append(subj_data)
         
