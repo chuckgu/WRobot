@@ -1,0 +1,8 @@
+index	data	mode	subj	dir	up	arg	sentence	
+1	subject	1	3	15	3	u_value1,u_value2,u_value3	이날 개인, 외국인, 기관이 모두 각각 {0}억원, {1}억원, {2}억원을 순매수하며 상승세를 이끌었다.	
+2	subject	1	3	-15	0	d_value1,d_value2,d_value3	이날 개인, 외국인, 기관이 모두 각각 {0}억원, {1}억원, {2}억원을 순매도하며 하락세를 이끌었다.
+3	subject	1	3	5	2	u_name1,u_name2,u_value1,u_value2,d_name1,d_value1	이날 {0}과 {1}이 각각 {2}억원, {3}억원어치를 동반 순매수하며 지수 상승을 이끌었으며, {4}은 {5}억원을 순매도했다.
+4	subject	1	3	-5	1	d_name1,d_name2,d_value1,d_value2,u_name1,u_value1	이날 {0}과 {1}이 각각 {2}억원, {3}억원어치를 동반 순매도하며 지수 하락을 이끌었으며, {4}은 {5}억원을 순매수했다.
+5	subject	1	3	0	1	u_name1,u_value1,d_name1,d_name2,d_value1,d_value2	매매주체 별로는 {0}이 {1}억원어치를 순매수하면서 지수의 상승세를 홀로 이끌었으며, {2}과 {3}은 각각 {4}억원, {5}억원을 순매도했다.
+6	subject	1	3	0	2	d_name1,d_value1,u_name1,u_name2,u_value1,u_value2	매매주체 별로는 {0}이 {1}억원어치를 순매도하면서 지수의 하락세를 홀로 이끌었으며, {2}과 {3}은 각각 {4}억원, {5}억원을 순매수했다.
+

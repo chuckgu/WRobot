@@ -1,0 +1,10 @@
+index	data	mode	subj	dir	up	arg	sentence	
+1	top	2	10	50	10	u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3	시가총액 상위 10개 종목 모두 상승한 가운데 {0}({1}%), {2}({3}%), {4}({5}%)등의 상승폭을 보였다
+2	top	2	10	40	9	d_name1,d_rate1,u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3	시가총액 상위 10개 종목 가운데 {0} 홀로 {1}% 하락했으며, {2}({3}%), {4}({5}%), {6}({7}%) 등 나머지 종목은 모두 상승세를 보였다.
+3	top	2	10	30	8	u_name1,u_name2,u_rate1,u_rate2,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	시가총액 상위 10개 종목 가운데 {0}, {1}{post} 각각 {2}%, {3}% 올랐고, 그 외에 {4}({5}%), {6}({7}%), {8}({9}%) 등은 하락했다.
+4	top	2	10	10	6	d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3,u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3	시가총액 상위 종목 중에는 오른 종목이 더 많았는데, {0}({1}%), {2}({3}%) {4}({5}%){post} 하락한 반면, {6}({7}%), {8}({9}%) {10}({11}%) 등은 상승세를 보였다.
+5	top	2	10	-10	4	u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	시가총액 상위 종목 중에는 내린 종목이 더 많았는데, {0}({1}%), {2}({3}%) {4}({5}%){post} 상승한 반면, {6}({7}%), {8}({9}%) {10}({11}%) 등은 하락세를 보였다.
+6	top	2	10	-30	2	d_name1,d_rate1,d_name2,d_rate2,u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3	시가총액 상위 10개 종목 가운데 {0}, {1}{post} 각각 {2}%, {3}%의 하락폭을 보였고, 그 외에 {4}({5}%), {6}({7}%), {8}({9}%) 등은 상승했다.
+7	top	2	10	-40	1	u_name1,u_rate1,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	시가총액 상위 10개 종목 가운데 {0} 홀로 {1}% 상승했으며, {2}({3}%), {4}({5}%), {6}({7}%) 등 나머지 종목은 모두 하락세를 보였다.
+8	top	2	10	-50	0	d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	시가총액 상위 10개 종목 모두 하락한 가운데 {0}({1}%), {2}({3}%), {4}({5}%)등의 하락폭을 보였다.
+

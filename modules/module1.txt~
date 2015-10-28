@@ -1,0 +1,6 @@
+index	data	mode	subj	dir	arg	sentence	
+1	total	1	1	10	subj,delta,drate,finalvalue	{0}지수가 급등하며 전일보다 {1}포인트({2}%) 오른 {3}포인트로 장을 마쳤다.	
+2	total	1	1	-10	subj,delta,drate,finalvalue	{0}지수가 급락하며 전일보다 {1}포인트({2}%) 내린 {3}포인트로 장을 마쳤다.
+3	total	1	1	5	subj,delta,drate,finalvalue	{0}{post} 전날보다 %s포인트(%s%%) 상승한 %s포인트로 거래를 마쳤다.
+4	total	1	1	-5	subj,delta,drate,finalvalue	{0}{post} 전날보다 %s포인트(%s%%) 하락한 %s포인트로 거래를 마쳤다.
+
