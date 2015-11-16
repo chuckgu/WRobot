@@ -5,6 +5,7 @@ sys.setdefaultencoding('utf-8')
 
 import os
 import pandas as pd
+import numpy as np
 
 
 def get_decision(data,definition):
@@ -96,7 +97,10 @@ def get_index(data,point,up=-1):
 
     if up>=0:
         data['up_diff']=abs(data['up']-up)
-        index=data[data['up_diff']==min(data['up_diff'])].iloc[0]['index']
+        candidate=data.query(data['up_diff']==min(data['up_diff']))['index']
+        det=np.random.randint(len(candidate))
+        index=candidate.iloc[det]
+
     else:
         data['value_diff']=abs(data['value']-point)
         index=data[data['value_diff']==min(data['value_diff'])].iloc[0]['index']

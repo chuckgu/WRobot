@@ -6,7 +6,7 @@ sys.setdefaultencoding('utf-8')
 from Templates import Template
 from datetime import datetime
 
-start_date='20151006'
+start_date='20150930'
 end_date='20151006'
 
 datetimeobject = datetime.strptime(start_date,'%Y%m%d')

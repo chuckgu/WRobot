@@ -4,4 +4,5 @@ index	data	mode	subj	dir	up	arg	sentence
 3	industry	2	50	30	25	u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	업종별로는 {0}{post} {1}%, {2}{post} {3}%, {4}{post} {5}% 상승했으며, {6}{post} {7}%, {8}{post} {9}%, {10}{post} {11}% 하락했다.
 4	industry	2	50	40	10	u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	업종별로는 하락한 업종이 더 많았는데, {0}{post} {1}%, {2}{post} {3}%, {4}{post} {5}% 상승했으며, {6}{post} {7}%, {8}{post} {9}%, {10}{post} {11}% 하락했다. 
 5	industry	2	50	30	0	u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	업종별로는 대부분의 업종이 하락한 가운데, {0}{post} {1}%, {2}{post} {3}%, {4}{post} {5}% 상승했으며, {6}{post} {7}%, {8}{post} {9}%, {10}{post} {11}% 하락했다.
+6	industry	2	50	40	10	u_name1,u_rate1,u_name2,u_rate2,u_name3,u_rate3,d_name1,d_rate1,d_name2,d_rate2,d_name3,d_rate3	업종별로는 {0}{post} {1}%, {2}{post} {3}%, {4}{post} {5}% 상승했으며, {6}{post} {7}%, {8}{post} {9}%, {10}{post} {11}% 하락했다. 
 
